@@ -135,11 +135,55 @@
 
 // Condição ternaria
 
-let valor2 =301;
+// let valor2 =301;
 
-let resultado = valor2 == 300 ? "Certo": "Errado";
-console.log(resultado)
+// let resultado = valor2 == 300 ? "Certo": "Errado";
+// console.log(resultado)
 
+
+//SWITCH CASE
+
+// let time ="Palmeiras";
+
+// switch(time){
+//     case "Corinthians":
+//         console.log("Melhor Time")
+//         break;
+//     case "Sao Paulo":
+//         console.log("Não é um time")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem Mundial")
+//         break;
+//     default:
+//         console.log("Nenhuma das opções")
+// }
+
+//ESTRUTURA DE LAÇO DE REPETIÇÃO
+
+//FOR
+// for(let i=0;i<=10;i++){
+//     console.log("O valor de I é :",i)
+// }
+
+//WHILE
+
+let w=0;
+
+while(w <=10){
+    console.log("o valor de W é ",w)
+    w++;
+}
+
+
+//do While
+
+let z= 10;
+
+do{
+    console.log("do while é",z)
+    z++;
+}while(z <= 100)
 
 
 

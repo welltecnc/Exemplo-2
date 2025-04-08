@@ -68,24 +68,34 @@
 
 //OPERADORES ARITMÉTICOS
 
-const num1 =10;
-const num2 =20;
+// const num1 =10;
+// const num2 =20;
 
-console.log(num1 + num2);
-console.log(num1 - num2);
-console.log(num1 * num2);
-console.log(num1 / num2);
+// console.log(num1 + num2);
+// console.log(num1 - num2);
+// console.log(num1 * num2);
+// console.log(num1 / num2);
 
 
 //OPERADORES LÓGICOS 
 
-const num3 =20;
-const num4 =30;
+// const num3 ="20";
+// const num4 =30;
 
-console.log(num3 < num4);
-console.log(num3 < num4 && num4 < 50);
-console.log(num3 > num4 || num4 > num3)
-console.log(num4 == num3 || num4 > num3)
+// console.log(num3 < num4);
+// console.log(num3 < num4 && num4 < 50);
+// console.log(num3 > num4 || num4 > num3)
+// console.log(num4 === num3 || num4 > num3)
+
+
+//OPERADORES DE COMPARAÇÃO
+const num5 =25;
+const num6 =35;
+
+console.log(num5 == num6); //compara
+console.log(num5 === num6);//compara e verifica o tipo da variavel
+console.log(num5 != num6); // diferente
+
 
 
 

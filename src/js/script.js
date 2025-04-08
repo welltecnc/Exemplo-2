@@ -89,12 +89,56 @@
 
 
 //OPERADORES DE COMPARAÇÃO
-const num5 =25;
-const num6 =35;
+// const num5 =25;
+// const num6 =35;
 
-console.log(num5 == num6); //compara
-console.log(num5 === num6);//compara e verifica o tipo da variavel
-console.log(num5 != num6); // diferente
+// console.log(num5 == num6); //compara
+// console.log(num5 === num6);//compara e verifica o tipo da variavel
+// console.log(num5 != num6); // diferente
+
+//ESTRUTUURA CONDICIONAL 
+
+//IF
+
+// let valor =100;
+
+// if(valor == 100){
+//  console.log("é verdadeiro")
+// }
+
+//if/else
+
+// let valor1=120;
+
+// if(valor1 == 100){
+//     console.log("Valor Correto")
+// }else{
+//     console.log("Valor Errado")
+// }
+
+//if/else - encadeado ou aninhado
+
+// let idade = 77;
+
+// if(idade < 14){
+//     console.log("Não pode entrar na balada")
+// }
+// else if(idade >=  14 && idade < 18){
+//     console.log("Pode Entrar e curtir")
+// }
+// else if (idade > 50 && idade <70){
+//     console.log("Você não tem idade para isso")
+// }
+// else{
+//     console.log("fica em casa assistindo tv")
+// }
+
+// Condição ternaria
+
+let valor2 =301;
+
+let resultado = valor2 == 300 ? "Certo": "Errado";
+console.log(resultado)
 
 
 
